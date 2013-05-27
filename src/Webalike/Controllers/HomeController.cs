@@ -15,7 +15,7 @@ namespace Webalike.Controllers {
 
 		public ActionResult Index() {
 			ViewBag.Message = "The Best of the Web. Chosen by You.";
-			ViewData.Model = articleContext.Articles.Take(3);
+			ViewData.Model = articleContext.Articles.OrderByDescending(a => a.PostedAtUtc).Take(3);
 			return View();
 		}
 
