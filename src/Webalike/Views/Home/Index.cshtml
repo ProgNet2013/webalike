@@ -1,0 +1,25 @@
+@{
+  ViewBag.Title = "Welcome to Web-A-Like";
+}
+@model IEnumerable<Webalike.Models.Article>
+@section featured {
+
+  <section class="featured">
+    <div class="content-wrapper">
+      <hgroup class="title">
+        <h1>@ViewBag.Title.</h1>
+        <h2>@ViewBag.Message</h2>
+      </hgroup>
+    </div>
+  </section>
+
+}
+<h3>Check Out These Articles!</h3>
+<ol class="round">
+  @foreach (var article in ViewData.Model) {
+    <li>
+      <h5>@article.Headline</h5>
+      @article.Synopsis
+      <a href="@article.LinkUrl">Learn more...</a> </li>
+  }
+</ol>
