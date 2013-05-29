@@ -1,13 +1,13 @@
 ﻿html {
-    background-color: #e2e2e2;
+    background-color: #F660AB;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #fff;
+    background-color: #F660AB;
     border-top: solid 10px #000;
-    color: #333;
+    color: #FFF;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     margin: 0;
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: #333;
+    color: #000;
     outline: none;
     padding-left: 3px;
     padding-right: 3px;
@@ -24,11 +24,11 @@ a {
 
     a:link, a:visited,
     a:active, a:hover {
-        color: #333;
+        color: #FFF;
     }
 
     a:hover {
-        background-color: #c7d1d6;
+        background-color: #FFF;
     }
 
 header, footer, hgroup,
@@ -37,7 +37,7 @@ nav, section {
 }
 
 mark {
-    background-color: #a6dbed;
+    background-color: #F660AB;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -60,7 +60,7 @@ mark {
 
 h1, h2, h3,
 h4, h5, h6 {
-    color: #000;
+    color: #FFF;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -99,7 +99,7 @@ h5, h6 {
 }
 
 #body {
-    background-color: #efeeef;
+    background-color: #F660AB;
     clear: both;
     padding-bottom: 35px;
 }
@@ -120,7 +120,7 @@ header .content-wrapper {
 
 footer {
     clear: both;
-    background-color: #e2e2e2;
+    background-color: #F660AB;
     font-size: .8em;
     height: 100px;
 }
@@ -129,7 +129,7 @@ footer {
 /* site title
 ----------------------------------------------------------*/
 .site-title {
-    color: #c8c8c8;
+    color: #FFF;
     font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
     font-size: 2.3em;
     margin: 0;
@@ -137,7 +137,7 @@ footer {
 
 .site-title a, .site-title a:hover, .site-title a:active {
     background: none;
-    color: #c8c8c8;
+    color: #FFF;
     outline: none;
     text-decoration: none;
 }
@@ -153,7 +153,7 @@ footer {
 }
 
     #login a {
-        background-color: #d3dce0;
+        background-color: #F660AB;
         margin-left: 10px;
         margin-right: 3px;
         padding: 2px 3px;
@@ -209,17 +209,17 @@ ul#menu {
 ----------------------------------------------------------*/
 /* featured */
 .featured {
-    background-color: #fff;
+    background-color: #F660AB;
 }
 
     .featured .content-wrapper {
-        background-color: #7ac0da;
-        background-image: -ms-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        background-image: -o-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #7ac0da), color-stop(1, #a4d4e6));
-        background-image: -webkit-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        background-image: linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        color: #3e5667;
+        background-color: #C0C0C0;
+        background-image: -ms-linear-gradient(left, #C0C0C0 0%, #808080 100%);
+        background-image: -o-linear-gradient(left, #C0C0C0 0%, #808080 100%);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #C0C0C0), color-stop(1, #808080));
+        background-image: -webkit-linear-gradient(left, #C0C0C0 0%, #808080 100%);
+        background-image: linear-gradient(left, #C0C0C0 0%, #808080 100%);
+        color: #FFF;
         padding: 20px 40px 30px 40px;
     }
 
@@ -440,7 +440,7 @@ textarea {
 }
 
     input:focus, textarea:focus {
-        border: 1px solid #7ac0da;
+        border: 1px solid #808080;
     }
 
     input[type="checkbox"] {
@@ -452,8 +452,8 @@ textarea {
     input[type="submit"],
     input[type="button"],
     button {
-        background-color: #d3dce0;
-        border: 1px solid #787878;
+        background-color: #F660AB;
+        border: 1px solid #808080;
         cursor: pointer;
         font-size: 1.2em;
         font-weight: 600;
@@ -479,14 +479,14 @@ textarea {
 
 .message-error {
     clear: both;
-    color: #e80c4d;
+    color: #000;
     font-size: 1.1em;
     font-weight: bold;
     margin: 20px 0 10px 0;
 }
 
 .message-success {
-    color: #7ac0da;
+    color: #000;
     font-size: 1.3em;
     font-weight: bold;
     margin: 20px 0 10px 0;
