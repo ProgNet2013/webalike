@@ -236,6 +236,22 @@ hgroup.title {
     margin-bottom: 10px;
 }
 
+@keyframes blink {  
+    0% { color: #F660AB; }
+    100% { color: #fff; }
+}
+@-webkit-keyframes blink {
+    0% { color: #F660AB; }
+    100% { color: #fff; }
+}
+.blink {
+    -webkit-animation: blink 1.0s linear infinite;
+    -moz-animation: blink 1.0s linear infinite;
+    -ms-animation: blink 1.0s linear infinite;
+    -o-animation: blink 1.0s linear infinite;
+    animation: blink 1.0s linear infinite;
+}
+
 hgroup.title h1, hgroup.title h2 {
     display: inline;
 }
@@ -754,3 +770,6 @@ tr.pager td {
             margin: 0;
         }
 }
+
+
+ 
