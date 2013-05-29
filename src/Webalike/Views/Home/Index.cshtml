@@ -16,10 +16,12 @@
 }
 <h3>Check Out These Articles!</h3>
 <ol class="round">
-  @foreach (var article in ViewData.Model) {
-    <li>
-      <h5>@article.Headline</h5>
-      @article.Synopsis
-      <a href="@article.LinkUrl">Learn more...</a> </li>
-  }
+    @foreach (var article in ViewData.Model) {
+        <li>
+            <h5>@article.Headline</h5>
+            @article.Synopsis
+            <a href="@article.LinkUrl">Learn more...</a> </li>
+    }
 </ol>
+
+<img src="~/Content/images/1458611_4.jpg" />
